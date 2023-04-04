@@ -5,7 +5,7 @@
 4. ranking.csv is a file with high score
 5. Run 'main.py'
 
-# Requirements
+## Requirements
 install: 
   1. pandas
   2. random

@@ -8,7 +8,8 @@ GREEN = '#9bdeac'
 L_PURPLE = "#372948"
 H_PURPLE = "#251B37"
 FONT_NAME = "Courier"
-TIMER_SEC = 60
+TIMER_SEC = 20
+timer = None
 
 
 # ---------------------------- TIMER MECHANISM ------------------------------- #
@@ -51,6 +52,7 @@ def count_down(count):
     canvas.itemconfig(timer_text, text=f"{count_sec}sec")
 
     if count > 0:
+        global timer
         timer = window.after(1000, count_down, count - 1)
 
     if count == 0:

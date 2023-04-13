@@ -6,8 +6,5 @@
 4. ranking.csv is a file with high score
 5. Run 'main.py'
 
-## Requirements
-install: 
-  1. pandas
-  2. random
-  3. tkinter
+### Requirements
+pip install -r requirements.txt
